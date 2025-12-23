@@ -156,7 +156,7 @@ print(report["full_report_text"])
 
 **Using Test Script:**
 ```bash
-python test_discharge_generator.py
+python -m test.test_discharge_generator
 ```
 
 ## 📚 API Documentation
