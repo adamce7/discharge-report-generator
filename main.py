@@ -8,12 +8,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 import uvicorn
 
-from models.schemas import (
+from app.models.schemas import (
     DischargeReportRequest,
     DischargeReportResponse
 )
-from services.discharge_report_service import discharge_report_generator
-from services.discharge_sample_data import (
+from app.services.discharge_report_service import discharge_report_generator
+from app.services.discharge_sample_data import (
     get_sample_discharge_patient,
     get_sample_template
 )
